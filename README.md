@@ -4,6 +4,8 @@ A Python tool for backtesting delta-hedged options strategies. Fits an implied v
 
 Built this to better understand how delta hedging actually works in practice and where the P&L comes from.
 
+![Demo](options_demo.gif)
+
 ## What it does
 
 - **IV Surface Fitting**: Takes options chain data and fits an implied vol surface using cubic interpolation. Also has SVI fitting if you want to get fancy.
